@@ -1,0 +1,77 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f0ceb0, #632b02);
+}
+
+.container {
+  position: relative;
+  top: -70px;
+}
+
+.line {
+  position: relative;
+  top: 20px;
+}
+
+.title {
+  font-size: 60px;
+  color: #52381f;
+  text-align: center;
+  text-shadow: 2px 4px #c1765c;
+  box-shadow:2px 2px 2px 2px #b59a78;
+  position: relative;
+  top:30px;
+}
+
+.calendar {
+  position: relative;
+  top: 13px;
+  left: 10px;
+  filter: drop-shadow(7px 5px 7px rgba(141, 33, 0, 0.506));
+  
+}
+.calendar1{
+  position: relative;
+  top: 13px;
+  left: -10px;
+  filter: drop-shadow(2px 5px 7px rgba(141, 33, 0, 0.506));
+}
+
+.intro{
+  position: relative;
+  top:-73px;
+  font-size:20px;
+  box-shadow:2px 2px 2px 2px #b59a78;
+  color: #5e4023;
+  text-shadow: 0.9px 0.9px #f1d6b0;
+  text-align: center;
+  font-weight: bold;
+}
+.table{
+  table-layout: fixed;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right:1px;
+  width: 800px;
+  height: 505px;
+  background-color: hsla(0, 0%, 91%, 0);
+  border-collapse: separate;
+  border-radius:5px;
+  box-shadow: 20px 40px 20px 40px#905d23c9;
+  overflow: hidden;
+  border-spacing: 0.09;
+  text-shadow:1px 1px #757474;
+  text-align:center;
+}
+.thead{
+  background: linear-gradient(to bottom, #ffd3ac, #aa602a);
+  width: 150;
+}
+.tbody{
+   background: linear-gradient(to bottom, #ffe7d2, #d5ab8d);
+}
+
+
+td {
+  background-blend-mode: overlay;
+}

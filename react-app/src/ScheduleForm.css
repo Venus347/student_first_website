@@ -1,0 +1,80 @@
+.form{
+    width: 600px;
+    height:385px;
+    font-family: 'Times New Roman';
+    color: #5e4023;
+    text-shadow: 0.5px 0.5px #632b02;
+    background-color: beige;
+    position: relative;
+    left:-6px;
+    top:-503px;
+
+    border-collapse: separate;
+    border-radius:10px;
+    box-shadow: 5px 10px 10px 14px#82432ac9;
+    overflow: hidden;
+    border-spacing: 0.09;
+    text-shadow:1.00px 1.00px #757474;
+    color: 5px 10px 5px 15px#472806c9
+}
+.label{
+    font-size:20px;
+    text-align:center;
+}
+.inner{
+    background: linear-gradient(to bottom right, #ffe7d2, #f8a468);
+    position:relative;
+    font-size:20px;
+    left: 2px;
+    line-height: 65px;
+    box-shadow: 1px 1px 1px 1px#82432ac9;
+}
+
+.formHeader {
+  background: linear-gradient(to top left, #f0ceb0, #9c5423);
+  padding: 10px;
+  height:54px;
+}
+.dropdown{
+    position: relative;
+    background: linear-gradient(to top left, #ffe4c4, #fbd19d);
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    left: 0px;
+
+    box-shadow: 2px 2px 6px 2px#82432ac9;
+}
+
+.buttonRow {
+  position: relative;
+  top:6px;
+  left:-130px;
+  width: 820px;
+  background: linear-gradient(to bottom, #f0ceb0, #9c5423);
+
+  display:flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  
+}
+.button {
+  position: relative;
+  left:-10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  color:#5e3007;
+  box-shadow: 2px 10px 6px 5px#82432ac9;
+  background: linear-gradient(to right, #f5d99d, #e49680);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
